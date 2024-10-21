@@ -1,0 +1,8 @@
+#Cripto weak
+
+letra = input()
+subst = input()
+mensagem = input()
+
+re_mensagem = mensagem.replace(letra, subst)
+print(re_mensagem)
